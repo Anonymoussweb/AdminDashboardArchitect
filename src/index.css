@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.table_div tr:nth-child(even) {
+    background-color: rgba(235, 235, 235, 0.446);
+}
+
+.table_div tr:hover {
+    background-color: #D1F3FF;
+}
+
+.table_div tr {
+    text-align: center;
+}
+
+.regTable_div tr {
+    border-top: 1px solid rgba(128, 128, 128, 0.209);
+    border-collapse: collapse;
+}
+
+.regTable_div tr td,
+th {
+    padding: 10px 0;
+}
+
+.regTable_div h2 {
+    padding: 10px 0;
+}
+.inp{
+    width: max-content;
+    white-space: nowrap;
+}
